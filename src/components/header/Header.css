@@ -1,0 +1,13 @@
+.header {
+  min-width: 100%;
+
+  /* background-color: #2e3b55; */
+  background-color: #2e3b55;
+  /* background-color: #acccc4; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  color: #ffcb05;
+}

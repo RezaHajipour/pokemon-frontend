@@ -1,0 +1,19 @@
+.container {
+  background: #f0e3b0;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .main {
+  /* background: #acccc4; */
+  background: #f0e3b0;
+  /* position: relative; */
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  transform-style: preserve-3d;
+}
