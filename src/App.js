@@ -8,7 +8,7 @@ import PokemonId from "./components/pokemonId/PokemonId";
 import PokemonInfo from "./components/pokemonInfo/PokemonInfo";
 import 'fontsource-roboto';
 import Header from "./components/header/Header";
-
+import FightPoke from './components/fightpoke/FightPoke'
 
 
 function App() {
@@ -24,10 +24,14 @@ function App() {
           <PokemonId />
         </Route>
         <Route path="/card" component={Card} />
-        <Route path="/">
+
+        {/* we change this route to anther route and it's working with putting the compoent inside  */}
+        {/* <Route path="/">
           <Pokemon />
-        </Route>
-        <Route exact path="/" component={Home} />
+        </Route> */}
+        <Route exact path="/" component={Pokemon} />
+        <Route exact path="/fighting" component={FightPoke} />
+
       </Switch>
 
     </div>
