@@ -1,13 +1,15 @@
 import React from 'react';
 import "./Header.css";
 import SearchAppBar from "../header/SearchAppBar";
+import fight from "../images/fight.png";
+import Zoom from 'react-reveal/Zoom';
 
 const Header = () => {
     return (
         <div className="header">
             <div >
-                <br />
-                <h2>Choose your Favourite Pokemon</h2>
+
+                <Zoom top duration="2000"><img src={fight} alt="fight" /></Zoom>
                 <br />
 
             </div>

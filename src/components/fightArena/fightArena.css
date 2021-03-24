@@ -1,0 +1,35 @@
+.arena-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-image: url("../images/fight2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+.arena-container .btn-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.arena-container .hand {
+  width: 50%;
+}
+
+.arena-container .button {
+  width: 20%;
+  cursor: progress;
+}
+.winner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  background-image: url("../images/backgroundWinner.png");
+  background-repeat: space;
+  background-size: contain;
+  background-position-x: right;
+}
