@@ -7,7 +7,8 @@ import "./Hero.css";
 const Hero = () => {
     return (
         <div >
-            <img src={HERO} className="hero" />
+
+            <img src={HERO} className="hero" alt="hero" />
         </div>
 
 
